@@ -55,6 +55,8 @@ in order to revert to the previous release dates and to quickly have a new
 version available that irons out any bigger issues introduced and discovered
 soon after release.
 
+After eight months in total, the release schedule dates are back to the planned ones.
+
 This period is not carved into stone and should be adapted to the amount of
 work that is required for a certain release.
 
