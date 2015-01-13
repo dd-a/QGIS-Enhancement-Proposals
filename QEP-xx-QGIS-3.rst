@@ -31,6 +31,7 @@ updated and obsoleting education material (digital and print).
 Some changes require a major version increment because they require to
 restructure the API in a way where it is not possible to provide a legacy layer
 on top of the old API to maintain backwards compatibility.
+
 Such a process may be driven by internal changes (a previous example is
 multithreaded rendering or currently QEP#7 Rename Composer) or by external
 dependencies (most notably python related parts like python itself or PyQt).
@@ -49,6 +50,11 @@ reconsidered. If must-have features that will require yet another major version
 increment have not been implemented the implementation period should be
 extended in order to include this change in the current release.
 
+The first release of the subsequent versoin (X.2) shall be done after 2 months
+in order to revert to the previous release dates and to quickly have a new
+version available that irons out any bigger issues introduced and discovered
+soon after release.
+
 This period is not carved into stone and should be adapted to the amount of
 work that is required for a certain release.
 
@@ -58,7 +64,9 @@ work that is required for a certain release.
 Throughout the previous version of QGIS certain code pieces have been marked
 with deprecated or been annotated with what is going to happen to them with the
 next major release.
+
 Anything deprecated shall be removed.
+
 Anything scheduled for the next major release shall be changed.
 
 #.# Python Bindings
@@ -72,6 +80,7 @@ Deprecated python bindings should be removed.
 A major version change is being communicated more than a regular release. It
 should therefore be considered if the project can take additional advantages
 from this process.
+
 It can be a good possibility to launch corporate identity projects like a new
 logo, webpage, t-shirts, documentation...
 
@@ -80,6 +89,7 @@ logo, webpage, t-shirts, documentation...
 
 When a major version increment is done, backwards compatibility is of minor
 interest.
+
 While it is also desirable to avoid unnecessary breaks with previous versions
 in terms of API and user interface, changes should be grouped as much as
 possible. Any change that is going to happen in middle-term, is going to change
