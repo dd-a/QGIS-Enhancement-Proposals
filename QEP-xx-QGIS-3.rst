@@ -17,11 +17,13 @@ QGIS Enhancement #: QGIS Major Version Increment
 
     See :ref:`QEP 1 <qep1>` for description of QEP process.
 
-# Summary
+Summary
+-------
 
 This QEP describes the process of a major version increment in QGIS.
 
-# Reasoning
+Reasoning
+---------
 
 The QGIS major version is increased to allow breaking the API.
 This has the effect of requiring a considerable amount of plugins to be
@@ -34,7 +36,8 @@ Such a process may be driven by internal changes (a previous example is
 multithreaded rendering or currently QEP#7 Rename Composer) or by external
 dependencies (most notably python related parts like python itself or PyQt).
 
-# Timeline
+Timeline
+--------
 
 Instead of the normal 3 months implementation and 1 month feature-freeze
 period, an additional 2 months of implementation time and an additional 1 month
@@ -57,7 +60,8 @@ After eight months in total, the release schedule dates are back to the planned 
 This period is not carved into stone and should be adapted to the amount of
 work that is required for a certain release.
 
-# Additional Cleanup
+Additional Cleanup
+------------------
 
 Throughout the previous version of QGIS certain code pieces have been marked
 with deprecated or been annotated with what is going to happen to them with the
@@ -67,11 +71,13 @@ Anything deprecated shall be removed.
 
 Anything scheduled for the next major release shall be changed.
 
-## Python Bindings
+Python Bindings
+...............
 
 Deprecated python bindings should be removed.
 
-# Further Considerations/Improvements
+Further Considerations/Improvements
+-----------------------------------
 
 A major version change is being communicated more than a regular release. It
 should therefore be considered if the project can take additional advantages
@@ -80,7 +86,8 @@ from this process.
 It can be a good possibility to launch corporate identity projects like a new
 logo, webpage, t-shirts, documentation...
 
-# Backwards Compatibility
+Backwards Compatibility
+-----------------------
 
 When a major version increment is done, backwards compatibility is of minor
 interest.
@@ -93,10 +100,12 @@ against doing it now should be included. Postponing such a change leads to the
 need for yet another major version increment sooner and for the sake of users,
 authors and developers, such changes should happen as rarely as possible.
 
-# Issue Tracking ID(s)
+Issue Tracking ID(s)
+--------------------
 
 (required)
 
-# Voting History
+Voting History
+--------------
 
 (required)
